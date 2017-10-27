@@ -30,7 +30,7 @@ public class GmailLogin {
 		 d.findElement(By.xpath(".//*[@id='password']/div[1]/div/div[1]/input")).sendKeys("ari");
 		 d.findElement(By.xpath(".//*[@id='passwordNext']/content/span")).click();
 		 d.close();
-		 
+		 System.out.println("Gmail");
 
 	}
 
